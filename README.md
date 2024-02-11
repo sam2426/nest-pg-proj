@@ -10,7 +10,7 @@
 #
 
 <p align="center">
-  <strong style="font-size: 2em;">Postgres + Nest.js + Docker</strong>
+  <strong style="font-size: 4em;">Postgres + Nest.js + Docker</strong>
 </p>
 
 ## Description
