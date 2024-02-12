@@ -27,8 +27,10 @@ services:
       - /app/node_modules
     depends_on:
       - postgres-db
-    env_file:
-      - ./.env
+    environment:
+      - DATABASE_URL=postgresql://postgres:mysecretpassword@postgres-db:5432/postgres?schema=public
+    # env_file:
+    #   - ./.env
 
 volumes:
   pgdata:
